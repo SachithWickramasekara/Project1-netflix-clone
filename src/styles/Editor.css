@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body{
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+.intro--container{
+  position: absolute;
+  width: 800px;
+  height: 500px;
+background-color: rgb(69, 52, 52);
+  transform: translate(350px,100px);
+}
+.intro--image{
+  background-color: rgb(73, 112, 147);
+  object-fit: contain;
+  height: 8cm;
+  width: 6cm;
+  position: absolute;
+  transform: translate(1cm,1cm);
+}
+
+
+.intro--title{
+  /* background-color: burlywood; */
+  height: auto;
+  width: 10cm;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transform: translate(7.5cm,1.7cm);
+}
+.intro--title>h1{
+  font: bolder;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.intro--title>h4{
+  
+  font:bold;
+  font-size: 1.5rem;
+  transform: translate(5.5cm,-0.3cm);
+  text-decoration: underline;
+}
+.intro--para{
+  position: absolute;
+  height: 180px;
+  width: 400px;
+  /* background-color: aquamarine; */
+  transform: translate(280px,190px);
+  padding: 1rem;
+}
+
+.icons{
+  position: absolute;
+  /* background-color: azure; */
+  height: 2cm;
+  width: 7.8cm;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  transform: translate(8cm,10.5cm);
+  padding: 0.7rem;
+}
+.icons>img{
+  height: 1.5cm;
+  width: auto;
+}
